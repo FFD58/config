@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/{cipher}4c0213693c9b800108aa1a0e6989c14e19b5f4c54731fbc6bb01d4afe741adc6
-    username: {cipher}4c0213693c9b800108aa1a0e6989c14e19b5f4c54731fbc6bb01d4afe741adc6
-    password: {cipher}4c0213693c9b800108aa1a0e6989c14e19b5f4c54731fbc6bb01d4afe741adc6
+    url: jdbc:postgresql://localhost:5433/micro
+    username: micro
+    password: micro
   jpa:
     hibernate:
       ddl-auto: update
