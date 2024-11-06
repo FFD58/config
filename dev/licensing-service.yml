@@ -1,5 +1,17 @@
 server:
   port: 8081
 
-props:
-  value1: dev_value
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cache
+    username: cache
+    password: cache
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: ${LOG_SQL:false}
+    open-in-view: false
+    database: postgresql
+    properties:
+      hibernate:
+        default_schema: ${DB_SCHEMA:public}
