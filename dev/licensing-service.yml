@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/cache
-    username: cache
-    password: cache
+    url: jdbc:postgresql://localhost:5433/micro
+    username: micro
+    password: micro
   jpa:
     hibernate:
       ddl-auto: update
